@@ -15,6 +15,19 @@
     // Arrays like [1, 2, 3]
     // Tuples like (1, true)
 
+// Scalar Types
+// A scalar type represents a single value.
+// Rust has four primary scalar types: integers, floating-point numbers, Booleans, and characters. You may recognize these from other programming languages. 
+// Let’s jump into how they work in Rust.
+
+// Length	Signed	Unsigned
+// 8-bit	i8	u8
+// 16-bit	i16	u16
+// 32-bit	i32	u32
+// 64-bit	i64	u64
+// 128-bit	i128	u128
+// arch	isize	usiz
+
 fn main() {
     // Variables can be type annotated.
     let logical: bool = true;
